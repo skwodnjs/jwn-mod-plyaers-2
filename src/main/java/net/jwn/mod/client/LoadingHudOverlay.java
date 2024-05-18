@@ -20,6 +20,7 @@ public class LoadingHudOverlay {
 
         Player player = Minecraft.getInstance().player;
         if (player.getPersistentData().getBoolean(Main.MOD_ID + "_isLoading")) {
+            System.out.println(player.getPersistentData().getInt(Main.MOD_ID + "_loading"));
             player.getPersistentData().putInt(Main.MOD_ID + "_loading", player.getPersistentData().getInt(Main.MOD_ID + "_loading") + 1);
             if (player.getPersistentData().getInt(Main.MOD_ID + "_loading") >= PHASE * TIMER) {
                 player.getPersistentData().putInt(Main.MOD_ID + "_loading", 0);

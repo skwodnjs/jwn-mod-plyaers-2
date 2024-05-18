@@ -28,11 +28,11 @@ public class StopBattleC2SPacket {
 
             player.getPersistentData().remove(Main.MOD_ID + "_opponent");
             player.getPersistentData().putBoolean(Main.MOD_ID + "_battle", false);
-            player.sendSystemMessage(Component.translatable("message.mod_players.stop_battle"));
+            player.sendSystemMessage(Component.translatable("message.mod_players_2.stop_battle"));
             if (target != null) {
                 target.getPersistentData().remove(Main.MOD_ID + "_opponent");
                 target.getPersistentData().putBoolean(Main.MOD_ID + "_battle", false);
-                target.sendSystemMessage(Component.translatable("message.mod_players.stop_battle"));
+                target.sendSystemMessage(Component.translatable("message.mod_players_2.stop_battle"));
             }
         });
         return true;

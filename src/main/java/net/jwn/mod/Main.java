@@ -31,7 +31,9 @@ public class Main {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-        ModMessages.register();
+        event.enqueueWork(() -> {
+            ModMessages.register();
+        });
     }
 
     // Add the example block item to the building blocks tab

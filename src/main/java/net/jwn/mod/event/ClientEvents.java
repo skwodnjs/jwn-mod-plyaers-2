@@ -7,6 +7,7 @@ import net.jwn.mod.networking.ModMessages;
 import net.jwn.mod.networking.packet.ResetOpponentC2SPacket;
 import net.jwn.mod.networking.packet.StopBattleC2SPacket;
 import net.jwn.mod.util.KeyBinding;
+import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.ClientPlayerNetworkEvent;
 import net.minecraftforge.client.event.InputEvent;

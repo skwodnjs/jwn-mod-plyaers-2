@@ -14,6 +14,9 @@
 
   "message.mod_players_2.stop_battle": "message.mod_players_2.stop_battle",
 
+  "message.mod_players_2.lets_compete": "message.mod_players_2.lets_compete",
+  "message.mod_players_2.lets_compete_opponent": "message.mod_players_2.lets_compete_opponent",
+
   "error.mod_players_2.one_opponent": "error.mod_players_2.one_opponent",
   "error.mod_players_2.player_opponent": "error.mod_players_2.player_opponent",
 
